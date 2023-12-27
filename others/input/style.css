@@ -1,0 +1,71 @@
+body{
+    background: #24252a;
+}
+
+#popup{
+    display: flex;
+    background: #fff;
+    height: 200px;
+    width: 25%;
+    border-radius: 30px;
+    position: fixed;
+    margin-top: 50px;
+    left: 100%;
+    transition: all 0.5s;
+}
+
+#popup input{
+    width: 60%;
+    height: 50px;
+    margin-top: 70px;
+    font-size: 20px;
+    border: none;
+    padding-left: 10px;
+    background: #cdcdcd;
+    border-radius: 50px;
+    margin-left: 10%;
+    font-family: sans-serif;
+    outline: none;
+}
+
+#popup button{
+    width: 25%;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 70px;
+    border: none;
+    padding-left: 10px;
+    background: #0ef;
+    border-radius: 50px;
+    transform: translateX(-90px);
+    transition: all 0.3s;
+}
+
+#popup button:hover{
+    background: #00adb9;
+}
+
+
+#link-popup{
+    display: flex;
+    background: #fff;
+    height: 130px;
+    width: 25%;
+    border-radius: 30px;
+    position: fixed;
+    margin-top: 30px;
+    left: 100%;
+    transition: left 0.5s , background 0.3s , color 1s;
+}
+
+#link-popup button{
+    color: #00b3ff;
+    font-size: 30px;
+    font-family: maiandra gd;
+    border: none;
+    background: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-left: 80px;
+}
